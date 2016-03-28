@@ -15,6 +15,8 @@
 		DC4DF9D11B884FCB0039B21F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4DF9D01B884FCB0039B21F /* Images.xcassets */; };
 		DC4DF9D41B884FCB0039B21F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4DF9D21B884FCB0039B21F /* LaunchScreen.xib */; };
 		DC4DF9E01B884FCB0039B21F /* R_to_LTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4DF9DF1B884FCB0039B21F /* R_to_LTests.m */; };
+		DCBCD94A1B8D87B8002003D9 /* UITextField+PasswordField.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBCD9491B8D87B8002003D9 /* UITextField+PasswordField.m */; };
+		DCBCD94F1B8D9461002003D9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCBCD9511B8D9461002003D9 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,15 @@
 		DC4DF9D91B884FCB0039B21F /* R to LTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "R to LTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4DF9DE1B884FCB0039B21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4DF9DF1B884FCB0039B21F /* R_to_LTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_to_LTests.m; sourceTree = "<group>"; };
+		DC51FE721B8C2E2000FA126D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		DC51FE731B8C2E2000FA126D /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DCBCD9481B8D87B8002003D9 /* UITextField+PasswordField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+PasswordField.h"; sourceTree = "<group>"; };
+		DCBCD9491B8D87B8002003D9 /* UITextField+PasswordField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PasswordField.m"; sourceTree = "<group>"; };
+		DCBCD94B1B8D8CE9002003D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		DCBCD94C1B8D8CE9002003D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DCBCD9501B8D9461002003D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCBCD9521B8D9463002003D9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DCBCD9531B8D9464002003D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 		DC4DF9B41B884FCB0039B21F = {
 			isa = PBXGroup;
 			children = (
+				DCBCD9511B8D9461002003D9 /* Localizable.strings */,
 				DC4DF9BF1B884FCB0039B21F /* R to L */,
 				DC4DF9DC1B884FCB0039B21F /* R to LTests */,
 				DC4DF9BE1B884FCB0039B21F /* Products */,
@@ -92,6 +104,8 @@
 				DC4DF9D21B884FCB0039B21F /* LaunchScreen.xib */,
 				DC4DF9C71B884FCB0039B21F /* R_to_L.xcdatamodeld */,
 				DC4DF9C01B884FCB0039B21F /* Supporting Files */,
+				DCBCD9481B8D87B8002003D9 /* UITextField+PasswordField.h */,
+				DCBCD9491B8D87B8002003D9 /* UITextField+PasswordField.m */,
 			);
 			path = "R to L";
 			sourceTree = "<group>";
@@ -183,8 +197,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				ar,
+				en,
 			);
 			mainGroup = DC4DF9B41B884FCB0039B21F;
 			productRefGroup = DC4DF9BE1B884FCB0039B21F /* Products */;
@@ -203,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4DF9CF1B884FCB0039B21F /* Main.storyboard in Resources */,
+				DCBCD94F1B8D9461002003D9 /* Localizable.strings in Resources */,
 				DC4DF9D41B884FCB0039B21F /* LaunchScreen.xib in Resources */,
 				DC4DF9D11B884FCB0039B21F /* Images.xcassets in Resources */,
 			);
@@ -223,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4DF9C91B884FCB0039B21F /* R_to_L.xcdatamodeld in Sources */,
+				DCBCD94A1B8D87B8002003D9 /* UITextField+PasswordField.m in Sources */,
 				DC4DF9C61B884FCB0039B21F /* AppDelegate.m in Sources */,
 				DC4DF9CC1B884FCB0039B21F /* ViewController.m in Sources */,
 				DC4DF9C31B884FCB0039B21F /* main.m in Sources */,
@@ -252,6 +269,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DC4DF9CE1B884FCB0039B21F /* Base */,
+				DC51FE721B8C2E2000FA126D /* ar */,
+				DCBCD94B1B8D8CE9002003D9 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -260,8 +279,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				DC4DF9D31B884FCB0039B21F /* Base */,
+				DC51FE731B8C2E2000FA126D /* ar */,
+				DCBCD94C1B8D8CE9002003D9 /* en */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DCBCD9511B8D9461002003D9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCBCD9501B8D9461002003D9 /* Base */,
+				DCBCD9521B8D9463002003D9 /* ar */,
+				DCBCD9531B8D9464002003D9 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -284,7 +315,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -303,9 +335,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d8347ef7-d86c-4ee8-8f2b-3927dbe4a8ed";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +361,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -341,8 +375,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "d8347ef7-d86c-4ee8-8f2b-3927dbe4a8ed";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -353,9 +388,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
 				INFOPLIST_FILE = "R to L/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktr.forcertl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d8347ef7-d86c-4ee8-8f2b-3927dbe4a8ed";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -363,9 +404,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ramachandran S (3NNZ4T6TP8)";
 				INFOPLIST_FILE = "R to L/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ktr.forcertl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d8347ef7-d86c-4ee8-8f2b-3927dbe4a8ed";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -422,6 +469,7 @@
 				DC4DF9E51B884FCB0039B21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4DF9E61B884FCB0039B21F /* Build configuration list for PBXNativeTarget "R to LTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +478,7 @@
 				DC4DF9E81B884FCB0039B21F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

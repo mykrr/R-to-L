@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
-
+/// Update your App Apple language in NSUserDefaults
+-(IBAction)yesBtnAction:(id)sender;
 @end
 
