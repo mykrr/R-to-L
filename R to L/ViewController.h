@@ -2,7 +2,7 @@
 //  ViewController.h
 //  R to L
 //
-//  Created by ndot on 22/08/15.
+//  Created by Test on 22/08/15.
 //  Copyright (c) 2015 Ktr. All rights reserved.
 //
 
